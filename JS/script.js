@@ -109,9 +109,135 @@
 // let b = a;
 // a = a + 2;
 
+// Symbol -> unique immutable value
+// let u1 = Symbol("hehe");
+// let u2 = Symbol("hehe");
+
+// let obj = {
+//   name : "sumit",
+//   age : 21,
+//   uid : 1,
+//   email : "sumit@gmail.com",
+// };
+
+// let u1 = Symbol("uid")
+// obj[u1] = "001"; // to create unique thing
+
+// BigINT
+// let ghaa = 9007199254740991n;
+// console.log(ghaa+7n);
+
 //array
-let a = [1, 2, 3];
-let b = a;
-b[0] = 2; // by reference
-// this will make the changes in a too
+// let a = [1, 2, 3];
+// let b = a;
+// b[0] = 2; // by reference
+// this will make the changes in `a` too
+// same is functions, objects
+
+// Dynamic typing
+// JS me static typing nhi hai
+// can change data type
+// data types are dynamic
+
+// in C++ like languages
+// int a = 34;
+// a = "sumit"; // doesn't support
+
+// in JS
+// let a = 12; // number
+// a = true; // bool
+// a = "sumit"; // string
+
+// Type Coercion (== vs ===)
+// Truthy vs Falsy values
+
+// Type Coercion -> concept jisme type apne aap convert ho jayega
+
+// Truthy vs Falsy values
+// hr value ko truth ya false me tod rkha hai
+
+// false - 0 false "" null undefined NaN document.all
+// true - Rest All
+
+// if(true)
+// {
+//   console.log("HEY");
+// }
+
+// NaN - Not a number
+// "ZiKKR" * 2 = NaN // failed number operation
+
+// undefined vs null
+// undefined is given by JS as default value
+// null is given by the user's end to specify that no value is given
+
+// Operators
+
+// Arithemetic
+
+// + - / * % **
+
+// + does addition and concatination
+
+// - subtract
+
+// / - divide
+
+// * - multiply
+
+// % - remainder (mod)
+
+// ** - exponenciation (power)
+
+// Comparison
+
+// == // compare the value (not type) (not strict)
+// === // also checks type (strict)
+// != // not equal (not type check) (not strict)
+// !== // not equal (type check) (strict)
+// >
+// <
+
+// Assignment
+// =
+// +=
+// -=
+// *=
+// /=
+// %=
+
+// Logical
+// && || !
+// && - and
+// || - or
+// ! - not
+
+// !! to check the true nature
+// one ! turns into bool
+// another turns into true nature
+
+// Urinary
+// +"10" // add + in front of a number me shift hone layak string to convert into Number
+// +"sumit" // NaN
+// a++
+// ++a
+// --a
+// a--
+
+// Ternary
+// ?:
+// condition ? true hui ka code : false hui ka code
+
+// 12 > 13 ? console.log("true"): console.log("hui");
+
+// typeof
+//qrks
+// null - 'object' 
+// array - 'object'
+// NaN - 'number'
+
+// instanceof
+// usse janam liya hua
+// a instanceof Array;
+
 
