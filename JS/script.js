@@ -414,8 +414,12 @@
 // }, 0);
 // this 0 is the value of accumulator at the start
 
-// let obj = {
-//   name: "sumit",
-//   age: 21,
-//   khana: "Kheer"
-// };
+let obj = {
+  name: "sumit",
+  age: 21,
+  khana: "Kheer"
+};
+
+console.log(obj["age"]);
+let obj2 = JSON.stringify(obj);
+console.log(obj2);
