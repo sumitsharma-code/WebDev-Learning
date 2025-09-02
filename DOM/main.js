@@ -1,12 +1,12 @@
 // // DOM
 // // Document Object Model
 
-// // DOM Manupulation
-// // Select Html elements
-// // Text balna
-// // html badlna
-// // css badlna
-// // even listeners
+// // DOM Manupulation 
+// Select Html elements +
+// Text balna +
+// html badlna +
+// css badlna
+// even listeners
 
 // // Select Html elements
 // // // Id
@@ -60,6 +60,18 @@ let body = doc.querySelector("body");
 // h1.textContent = "ZiKKR on the Beat";
 // body.querySelector("div").append(h1);
 // body.querySelector("div").remove(h1);
-body.style = "background-color: black; display: flex; justify-content: center;"
+// body.style = "background-color: black; display: flex; justify-content: center;"
 let h1 = body.querySelector("h1");
-h1.style.color = "red";
+// h1.style.color = "red";
+// h1.style.backgroundColor = "";
+// h1.classList.add("hulu");
+// h1.classList.remove("hulu");
+h1.style.display = "flex";
+h1.style.justifyContent = "center";
+h1.style.color = "white";
+h1.textContent = "Prime Video"
+
+let li = body.querySelectorAll("li");
+li.forEach(function(val){
+    val.style.color = "blue";
+})
