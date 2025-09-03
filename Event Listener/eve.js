@@ -1,9 +1,11 @@
-let h1 = document.querySelector("h1");
-function my() {
-  if (h1.style.color === "red") {
-    h1.style.color = "blue";
-  } else {
-    h1.style.color = "red";
-  }
-}
-h1.addEventListener("click", my);
+document.querySelector("body").style.backgroundColor = "black";
+document.querySelector("input").style.backgroundColor = "black";
+document.querySelector("input").style.color = "white";
+let v = document.createElement("h1");
+v.style.color = "white";
+
+document.querySelector("input").addEventListener("input", function(eve) {
+  console.log(eve);
+  v.textContent = eve.data;
+  document.querySelector("body").appendChild(v);
+});
